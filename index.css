@@ -292,3 +292,114 @@ h3 {
     color: #005df4;
     background-color: white;
 }
+
+#end {
+    height: 470px;
+    width: 100%;
+}
+
+#end img {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    border: 1px solid;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>div {
+    border: 1px solid;
+    height: 300px;
+    width: 83%;
+    margin-top: 60px;
+}
+
+#footer-logo {
+    display: flex;
+}
+
+#footer-logo>div:nth-child(1) {
+    border: 1px solid;
+    width: 40%;
+}
+
+#footer-logo>div:nth-child(2) {
+    border: 1px solid;
+    width: 60%;
+}
+
+#footer-logo>div>h1 {
+    font-size: 50px;
+}
+
+th,
+td {
+    padding-top: 8px;
+    padding-left: 20px;
+    /* margin: 30px; */
+    font-size: 20px;
+    border-spacing: 50px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #005df4;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-top: 120px;
+}
+
+.fa:hover {
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}

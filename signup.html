@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up </title>
+    <link rel="stylesheet" href="signup.css">
+    <style>
+        * {
+            margin: 0px;
+        }
+        
+        body {
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+        }
+        
+        #form-data {
+            width: 50%;
+            font-size: 20px;
+            margin-top: 120px;
+        }
+        
+        #form-data input {
+            width: 70%;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        #form {}
+        
+        #intro {
+            height: 651px;
+            margin: 0px;
+        }
+        
+        #intro img {
+            height: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="logo">
+        <a href="#"><img src="./images/logo.png" alt=""></a>
+    </div>
+    <div id="form-data">
+        <h1>Let's get your account set up</h1>
+        <form action="" id="form">
+            <label>Email</label><br>
+            <input type="email" placeholder="Enter email Id" id="email"><br>
+            <label>Create a Password</label><br>
+            <input type="password" placeholder="Enter password" id="pass"><br>
+            <input type="submit" name="" id="" value="Sign Up">
+        </form>
+        <p>I agree to <a href="#">Buffer's Terms of service</a></p>
+        <a href="#">Already have an account?</a>
+    </div>
+    <div id="intro">
+        <img src="./images/signup image.png" alt="">
+    </div>
+</body>
+
+</html>
+<script>
+    let form = document.getElementById("form");
+    let formData = JSON.parse(localStorage.getItem("form-Data")) || [];
+
+    form.addEventListener("submit", (el) => {
+        let email = document.getElementById("email");
+        let password = document.getElementById("pass")
+        let data = {
+            email: email.value,
+            password: password.value
+        }
+
+        localStorage.setItem("form-Data", JSON.stringify(data));
+        alert("Sign Up Successful");
+    })
+</script>

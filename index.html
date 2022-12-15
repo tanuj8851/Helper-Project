@@ -7,9 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helper</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <style>
-
+        .dropdown-menu {
+            display: none;
+            position: relative;
+        }
+        
+        .dropdown-menu {
+            display: block;
+            position: absolute;
+        }
     </style>
 </head>
 
@@ -25,11 +33,20 @@
         <div id="list">
 
             <a href="#">
-                <li>Tools</li>
+                <li>Tools <i class='fas fa-angle-down'></i></li>
             </a>
+            <div class="dropdown_menu">
+                <ul>
+                    <li><a href="#"> Publishing</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Engagement</a></li>
+                    <li><a href="#">Start Page</a></li>
+                </ul>
+            </div>
             <a href="#">
-                <li>Channnels</li>
+                <li>Channnels <i class='fas fa-angle-down'></i> </li>
             </a>
+
             <a href="#">
                 <li>Pricing</li>
             </a>
@@ -38,7 +55,7 @@
             </a>
         </div>
         <div id="login">
-            <a href="#" id="log">Log in</a>
+            <a href="login.html" id="log">Log in</a>
             <a href="signup.html"><button>Get Started now</button></a>
         </div>
     </div>

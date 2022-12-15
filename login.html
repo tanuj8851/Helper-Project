@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helper - Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        p {
+            text-align: center;
+            margin-top: 10%;
+        }
+        
+        #links {
+            margin-top: 10%;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="body">
+        <div id="body-part1">
+            <div id="logo">
+                <a href="index.html"><img src="./images/1.png" alt=""></a>
+            </div>
+            <div id="form-data">
+                <h1>Log In</h1>
+                <form action="" id="form">
+                    <label>Email Address</label><br>
+                    <input type="email" placeholder="Enter Email Id" id="email"><br>
+                    <label>Password</label><br>
+                    <input type="password" placeholder="Enter password" id="password"><br><br>
+                    <input type="submit" id="submit" value="log in">
+                </form>
+                <div id="form-part1">
+                    <div>
+                        <a href="signup.html">create account</a>
+                    </div>
+                    <div>
+                        <a href="#">Forgot password</a>
+                    </div>
+                </div><br>
+                <p>We no longer support social sign on. Please click here to set your password and access your account.</p>
+                <div id="links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Security</a>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="body-part2">
+            <img src="./images/loginimg.png" alt="">
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+    let form = document.getElementById("form");
+    let email = document.getElementById("email");
+    let password = document.getElementById("password");
+    let getData = JSON.parse(localStorage.getItem("form-Data"));
+</script>

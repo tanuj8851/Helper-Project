@@ -8,16 +8,9 @@
     <title>Helper</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        .dropdown-menu {
-            display: none;
-            position: relative;
-        }
-        
-        .dropdown-menu {
-            display: block;
-            position: absolute;
-        }
+
     </style>
 </head>
 
@@ -26,39 +19,44 @@
         <button>New</button>
         <p>Create and schedule Twitter threads! <a href="#">Find out more</a></p>
     </div>
-    <div id="nav">
-        <div id="logo">
-            <img src="./images/1.png" alt="logo">
-        </div>
-        <div id="list">
+    <nav class="navbar">
+        <a href="#"><img src="./images/1.png" alt="bannner 1"></a>
+        <ul>
 
-            <a href="#">
-                <li>Tools <i class='fas fa-angle-down'></i></li>
-            </a>
-            <div class="dropdown_menu">
-                <ul>
-                    <li><a href="#"> Publishing</a></li>
+            <li><a href="#">Tools</a>
+                <ul class="dropdown">
+                    <li><a href="#">Publishing</a></li>
                     <li><a href="#">Analytics</a></li>
                     <li><a href="#">Engagement</a></li>
                     <li><a href="#">Start Page</a></li>
-                </ul>
-            </div>
-            <a href="#">
-                <li>Channnels <i class='fas fa-angle-down'></i> </li>
-            </a>
 
-            <a href="#">
-                <li>Pricing</li>
-            </a>
-            <a href="#">
-                <li>blog</li>
-            </a>
+                </ul>
+            </li>
+            <li><a href="#">Channels</a>
+                <ul class="dropdown">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Google Business</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Linkedln</a></li>
+                    <li><a href="#">pinterest</a></li>
+                    <li><a href="#">twitter</a></li>
+                </ul>
+
+
+            </li>
+            <li><a href="pricing.html">Pricing</a></li>
+
+            <li><a href="#">Blog</a></li>
+
+
+
+        </ul>
+        <div id="btans">
+            <a href="#"><button id="btn1">Log in</button></a>
+            <a href="#"><button id="btn2">Start my plan</button></a>
         </div>
-        <div id="login">
-            <a href="login.html" id="log">Log in</a>
-            <a href="signup.html"><button>Get Started now</button></a>
-        </div>
-    </div>
+
+    </nav>
 
 
     <div id="menu1">

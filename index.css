@@ -27,14 +27,16 @@
     color: white;
 }
 
-a {
+
+/* a {
     text-decoration: none;
     color: #005df4;
-}
+} */
 
-a:hover {
+
+/* a:hover {
     cursor: pointer;
-}
+} */
 
 #nav {
     height: 100px;
@@ -60,11 +62,12 @@ a:hover {
     justify-content: space-evenly;
 }
 
-li a {
+
+/* li a {
     display: block;
     padding: 8px;
     background-color: #dddddd;
-}
+} */
 
 #login {
     width: 250px;
@@ -113,6 +116,8 @@ li a {
 
 #menu1 img {
     height: 100%;
+    /* border: 1px solid; */
+    margin-top: 10px;
 }
 
 #btns button:nth-child(1) {
@@ -346,13 +351,15 @@ td {
     border-spacing: 50px;
 }
 
-a {
-    color: black;
-}
 
-a:hover {
+/* a {
+    color: black;
+} */
+
+
+/* a:hover {
     color: #005df4;
-}
+} */
 
 table {
     text-align: center;
@@ -366,8 +373,8 @@ table {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
-    margin-top: 120px;
+    /* border-radius: 50%; */
+    /* margin-top: 120px; */
 }
 
 .fa:hover {
@@ -401,5 +408,100 @@ table {
 
 .fa-facebook {
     background: #3B5998;
+    color: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    /* border: 1px solid; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+}
+
+.navbar img {
+    height: 100px;
+    margin: 0px;
+}
+
+.navbar>ul {
+    list-style-type: none;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.navbar>ul>li {
+    float: left;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar ul li ul li {
+    display: none;
+    background-color: white;
+}
+
+.navbar ul li:hover ul li {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 0px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    line-height: 52px;
+    color: black;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+#btans {
+    margin-top: 25px;
+}
+
+#btans button {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#btn1 {
+    border: 0px;
+    background-color: white;
+    color: #005df4;
+}
+
+#btn1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#btn2 {
+    background-color: #005df4;
+    border: 0px;
+    width: 180px;
     color: white;
+    border-radius: 10px;
+}
+
+#btn2:hover {
+    cursor: pointer;
+    background-color: #005df4;
+    opacity: 0.7;
+}
+
+.dropdown li {
+    border: 1px solid;
 }

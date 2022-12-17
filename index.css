@@ -1,6 +1,7 @@
 * {
     margin: 0ch;
     padding: 0ch;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
 #nav-before {
@@ -351,15 +352,17 @@ td {
     border-spacing: 50px;
 }
 
-
-/* a {
+a {
     color: black;
-} */
+    text-decoration: none;
+    /* padding: 2px 5px; */
+}
 
-
-/* a:hover {
-    color: #005df4;
-} */
+a:hover {
+    /* color: #005df4;
+     */
+    text-decoration: underline;
+}
 
 table {
     text-align: center;
@@ -368,47 +371,13 @@ table {
 
 .fa {
     padding: 10px;
-    font-size: 30px;
+    font-size: 40px;
     width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
-    /* border-radius: 50%; */
+    margin: 0px 0px;
+    border-radius: 50%;
     /* margin-top: 120px; */
-}
-
-.fa:hover {
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa-pinterest {
-    background: #cb2027;
-    color: white;
-}
-
-.fa-reddit {
-    background: #ff5700;
-    color: white;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: black;
 }
 
 * {
@@ -504,4 +473,14 @@ table {
 
 .dropdown li {
     border: 1px solid;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+
+#icons {
+    margin-top: 100px;
+    margin-bottom: 20px;
 }

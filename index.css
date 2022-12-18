@@ -28,17 +28,6 @@
     color: white;
 }
 
-
-/* a {
-    text-decoration: none;
-    color: #005df4;
-} */
-
-
-/* a:hover {
-    cursor: pointer;
-} */
-
 #nav {
     height: 100px;
     /* border: 1px solid; */
@@ -62,13 +51,6 @@
     align-items: center;
     justify-content: space-evenly;
 }
-
-
-/* li a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-} */
 
 #login {
     width: 250px;
@@ -236,15 +218,29 @@ h3 {
 
 #collab-part2 {
     height: 400px;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#collab-part2>div {
+    width: 22%;
+    border-radius: 10px;
+    /* margin: auto; */
+    height: 350px;
+    /* border: 1px solid; */
+    text-align: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #numbers {
     height: 150px;
     width: 80%;
     margin: auto;
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -264,7 +260,7 @@ h3 {
 #help {
     height: 300px;
     width: 80%;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: auto;
     margin-top: 50px;
     display: flex;
@@ -272,10 +268,6 @@ h3 {
 
 #help img {
     height: 100%;
-}
-
-#help div {
-    border: 1px solid;
 }
 
 #help-part1 {
@@ -310,7 +302,6 @@ h3 {
 }
 
 footer {
-    border: 1px solid;
     height: 400px;
     width: 100%;
     display: flex;
@@ -319,7 +310,6 @@ footer {
 }
 
 footer>div {
-    border: 1px solid;
     height: 300px;
     width: 83%;
     margin-top: 60px;
@@ -330,12 +320,10 @@ footer>div {
 }
 
 #footer-logo>div:nth-child(1) {
-    border: 1px solid;
     width: 40%;
 }
 
 #footer-logo>div:nth-child(2) {
-    border: 1px solid;
     width: 60%;
 }
 
@@ -347,7 +335,6 @@ th,
 td {
     padding-top: 8px;
     padding-left: 20px;
-    /* margin: 30px; */
     font-size: 20px;
     border-spacing: 50px;
 }
@@ -392,7 +379,7 @@ table {
     background-color: white;
     display: flex;
     /* border: 1px solid; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     position: sticky;
 }
 
@@ -483,4 +470,19 @@ table {
 #icons {
     margin-top: 100px;
     margin-bottom: 20px;
+}
+
+.face {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.company {
+    width: 250px;
+    height: 100px;
+}
+
+.navbar span {
+    margin-right: 15px;
 }

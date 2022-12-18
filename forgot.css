@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: grey;
+    background-image: linear-gradient(to bottom right, black, grey);
+}
+
+#body {
+    width: 30%;
+    margin: auto;
+    height: 700px;
+    border: 1px solid;
+    background-color: #f7f7f7;
+}
+
+#body>div {
+    line-height: 1.16;
+    padding: 20px;
+}
+
+#body>div>h1 {
+    margin: 30px 0px;
+}
+
+#body>div>p {
+    margin: 20px 0px;
+}
+
+label {
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+button {
+    width: 95%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+button:hover {
+    background-color: #cdcaca;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}

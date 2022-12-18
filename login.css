@@ -14,14 +14,15 @@ a {
 }
 
 #body {
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 650px;
     width: 100%;
     display: flex;
+    background-color: #f7f7f7;
 }
 
 #body>div {
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 #body-part1 {
@@ -37,10 +38,11 @@ a {
 }
 
 #form-data {
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 80%;
     margin: auto;
     padding: 10%;
+    background-color: #f7f7f7;
 }
 
 #form {
@@ -62,13 +64,13 @@ input {
     font-size: 22px;
     font-weight: bold;
     background-color: white;
-    border: 2px solid #55ACEE;
+    border: 2px solid #005df4;
     border-radius: 10px;
-    color: #55ACEE;
+    color: #005df4;
 }
 
 #submit:hover {
-    background-color: #55ACEE;
+    background-color: #005df4;
     color: white;
 }
 
@@ -76,4 +78,15 @@ input {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+}
+
+label {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.input {
+    border: 1px solid #005df4;
+    border-radius: 10px;
+    padding: 5px;
 }
